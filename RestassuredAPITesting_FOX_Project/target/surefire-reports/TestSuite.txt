@@ -1,0 +1,74 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 24.665 sec <<< FAILURE! - in TestSuite
+checkResposeBody(com.foxapi.testCases.TC001_REG_user)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at com.foxapi.testCases.TC001_REG_user.checkResposeBody(TC001_REG_user.java:97)
+
+checkStatusCode(com.foxapi.testCases.TC001_REG_user)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [403]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.foxapi.testCases.TC001_REG_user.checkStatusCode(TC001_REG_user.java:107)
+
+checkcontentEncoding(com.foxapi.testCases.TC001_REG_user)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [gzip] but found [null]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.foxapi.testCases.TC001_REG_user.checkcontentEncoding(TC001_REG_user.java:129)
+
+checkstatusLine(com.foxapi.testCases.TC001_REG_user)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 403 Forbidden]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.foxapi.testCases.TC001_REG_user.checkstatusLine(TC001_REG_user.java:114)
+
+checkResposeBody(com.foxapi.testCases.TC002_LOGIN_user)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at com.foxapi.testCases.TC002_LOGIN_user.checkResposeBody(TC002_LOGIN_user.java:82)
+
+checkStatusCode(com.foxapi.testCases.TC002_LOGIN_user)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [403]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.foxapi.testCases.TC002_LOGIN_user.checkStatusCode(TC002_LOGIN_user.java:90)
+
+checkstatusLine(com.foxapi.testCases.TC002_LOGIN_user)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 403 Forbidden]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.foxapi.testCases.TC002_LOGIN_user.checkstatusLine(TC002_LOGIN_user.java:107)
+

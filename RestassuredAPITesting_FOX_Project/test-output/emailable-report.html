@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">FoxRestAPISuite</th></tr>
+<tr><td><a href="#t0">FoxRestAPITest</a></td><td class="num">8</td><td class="num">0</td><td class="num attn">7</td><td class="num">22,639</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">FoxRestAPISuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FoxRestAPITest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.foxapi.testCases.TC001_REG_user</td><td><a href="#m0">checkResposeBody</a></td><td rowspan="1">1568484452811</td><td rowspan="1">11</td></tr><tr class="failedeven"><td><a href="#m1">checkStatusCode</a></td><td rowspan="1">1568484452825</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m2">checkcontentEncoding</a></td><td rowspan="1">1568484452829</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m3">checkstatusLine</a></td><td rowspan="1">1568484452832</td><td rowspan="1">1</td></tr><tr class="failedodd"><td rowspan="3">com.foxapi.testCases.TC003_RESET_password</td><td><a href="#m4">checkResposeBody</a></td><td rowspan="1">1568484468486</td><td rowspan="1">2</td></tr><tr class="failedodd"><td><a href="#m5">checkStatusCode</a></td><td rowspan="1">1568484468490</td><td rowspan="1">2</td></tr><tr class="failedodd"><td><a href="#m6">checkstatusLine</a></td><td rowspan="1">1568484468494</td><td rowspan="1">2</td></tr><tr><th colspan="4">FoxRestAPITest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.foxapi.testCases.TC001_REG_user</td><td><a href="#m7">checkContentType</a></td><td rowspan="1">1568484452792</td><td rowspan="1">5</td></tr><tr class="passedodd"><td rowspan="5">com.foxapi.testCases.TC002_LOGIN_user</td><td><a href="#m8">checkContentType</a></td><td rowspan="1">1568484461178</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m9">checkResponseTime</a></td><td rowspan="1">1568484461182</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m10">checkResposeBody</a></td><td rowspan="1">1568484461184</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m11">checkStatusCode</a></td><td rowspan="1">1568484461187</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m12">checkstatusLine</a></td><td rowspan="1">1568484461188</td><td rowspan="1">1</td></tr><tr class="passedeven"><td rowspan="2">com.foxapi.testCases.TC003_RESET_password</td><td><a href="#m13">checkContentType</a></td><td rowspan="1">1568484468481</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m14">checkResponseTime</a></td><td rowspan="1">1568484468483</td><td rowspan="1">2</td></tr></tbody>
+</table>
+<h2>FoxRestAPITest</h2><h3 id="m0">com.foxapi.testCases.TC001_REG_user#checkResposeBody</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.foxapi.testCases.TC001_REG_user.checkResposeBody(TC001_REG_user.java:94)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.foxapi.testCases.TC001_REG_user#checkStatusCode</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [200] but found [409]
+	at com.foxapi.testCases.TC001_REG_user.checkStatusCode(TC001_REG_user.java:104)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.foxapi.testCases.TC001_REG_user#checkcontentEncoding</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [gzip] but found [null]
+	at com.foxapi.testCases.TC001_REG_user.checkcontentEncoding(TC001_REG_user.java:126)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.foxapi.testCases.TC001_REG_user#checkstatusLine</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 409 Conflict]
+	at com.foxapi.testCases.TC001_REG_user.checkstatusLine(TC001_REG_user.java:111)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.foxapi.testCases.TC003_RESET_password#checkResposeBody</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.foxapi.testCases.TC003_RESET_password.checkResposeBody(TC003_RESET_password.java:76)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.foxapi.testCases.TC003_RESET_password#checkStatusCode</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [200] but found [400]
+	at com.foxapi.testCases.TC003_RESET_password.checkStatusCode(TC003_RESET_password.java:85)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.foxapi.testCases.TC003_RESET_password#checkstatusLine</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 400 Bad Request]
+	at com.foxapi.testCases.TC003_RESET_password.checkstatusLine(TC003_RESET_password.java:102)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.foxapi.testCases.TC001_REG_user#checkContentType</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.foxapi.testCases.TC002_LOGIN_user#checkContentType</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.foxapi.testCases.TC002_LOGIN_user#checkResponseTime</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.foxapi.testCases.TC002_LOGIN_user#checkResposeBody</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.foxapi.testCases.TC002_LOGIN_user#checkStatusCode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.foxapi.testCases.TC002_LOGIN_user#checkstatusLine</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.foxapi.testCases.TC003_RESET_password#checkContentType</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.foxapi.testCases.TC003_RESET_password#checkResponseTime</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

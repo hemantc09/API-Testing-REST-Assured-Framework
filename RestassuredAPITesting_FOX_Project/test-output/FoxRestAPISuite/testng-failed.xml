@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FoxRestAPISuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.foxapi.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="FoxRestAPITest(failed)">
+    <classes>
+      <class name="com.foxapi.testCases.TC001_REG_user">
+        <methods>
+          <include name="createEmployee"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="checkResposeBody"/>
+          <include name="checkcontentEncoding"/>
+          <include name="checkstatusLine"/>
+          <include name="checkStatusCode"/>
+        </methods>
+      </class> <!-- com.foxapi.testCases.TC001_REG_user -->
+      <class name="com.foxapi.testCases.TC003_RESET_password">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="checkResposeBody"/>
+          <include name="checkstatusLine"/>
+          <include name="checkStatusCode"/>
+          <include name="getEmployeeData"/>
+        </methods>
+      </class> <!-- com.foxapi.testCases.TC003_RESET_password -->
+    </classes>
+  </test> <!-- FoxRestAPITest(failed) -->
+</suite> <!-- Failed suite [FoxRestAPISuite] -->
