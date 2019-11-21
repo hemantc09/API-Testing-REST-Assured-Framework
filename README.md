@@ -61,7 +61,7 @@ This will open the report in WebBrowser and it will show the entire test suite r
 
 
 
-Right click on tsetng.xml file in the project directory level
+- Right click on tsetng.xml file in the project directory level
 Select Run As >  TestNG Suite
 
 *Note: Now your test suit is running. It will log all the success or errors on the eclipse console*
